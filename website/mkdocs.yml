@@ -1,0 +1,49 @@
+site_name: Sensors and Detection Technology
+site_url: https://codesoldier99.github.io/SDT/
+repo_url: https://github.com/codesoldier99/SDT
+repo_name: codesoldier99/SDT
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.highlight
+    - search.suggest
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search
+
+extra:
+  version:
+    provider: mike
+
+nav:
+  - Home: index.md
+  - Syllabus: syllabus/index.md
+  - Schedule: schedule/index.md
+  - Lectures: lectures/index.md
+  - Labs: labs/index.md
+  - Resources: resources/index.md
+  - FAQ: faq/index.md
+  - Announcements: announcements/index.md
+  - Knowledge Base: knowledge-base/index.md
+  - Videos: videos/index.md
