@@ -1,0 +1,9 @@
+course:
+  label: 课程建设
+  permalink: /course
+  description: 课程结构、网站与资源更新
+
+release:
+  label: 版本发布
+  permalink: /release
+  description: 学期版本与阶段性更新

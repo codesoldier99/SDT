@@ -1,0 +1,55 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #185560;
+  --ifm-color-primary-dark: #164d57;
+  --ifm-color-primary-darker: #144953;
+  --ifm-color-primary-darkest: #103b43;
+  --ifm-color-primary-light: #1c636f;
+  --ifm-color-primary-lighter: #1e6875;
+  --ifm-color-primary-lightest: #247b89;
+  --ifm-background-color: #fcfaf6;
+  --ifm-navbar-background-color: rgba(252, 250, 246, 0.92);
+  --ifm-footer-background-color: #10272c;
+  --ifm-font-family-base: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-image:
+    linear-gradient(rgba(18, 85, 96, 0.03), rgba(18, 85, 96, 0.03)),
+    linear-gradient(90deg, rgba(240, 169, 79, 0.05) 1px, transparent 1px),
+    linear-gradient(rgba(240, 169, 79, 0.05) 1px, transparent 1px);
+  background-size: auto, 24px 24px, 24px 24px;
+}
+
+.button.button--outline {
+  color: #f7f4ee;
+  border-color: rgba(247, 244, 238, 0.45);
+}
+
+.button.button--outline:hover {
+  color: #10272c;
+  background: #f0a94f;
+  border-color: #f0a94f;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #f0a94f;
+  --ifm-color-primary-dark: #eb9a30;
+  --ifm-color-primary-darker: #e79120;
+  --ifm-color-primary-darkest: #ca760f;
+  --ifm-color-primary-light: #f2b86e;
+  --ifm-color-primary-lighter: #f4c27d;
+  --ifm-color-primary-lightest: #f7d39f;
+  --ifm-background-color: #10171b;
+  --ifm-navbar-background-color: rgba(16, 23, 27, 0.88);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
